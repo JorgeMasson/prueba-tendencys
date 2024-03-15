@@ -1,7 +1,6 @@
 ### Configuraciones
 
 ```sh
-# Crear una copia del archivo .env.example a .env
 npm install
 ```
 
