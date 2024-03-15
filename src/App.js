@@ -1,16 +1,19 @@
 import "./translations/i18n";
+import React from "react";
 import PlatformProvider from "./platform/chakra";
 import Home from "./pages/home/HomePage";
 import { Provider } from "react-redux";
 import { store } from "./redux/Store";
 
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
-    <PlatformProvider>
-      <Provider store={store}>
+    <Provider store={store}>
+      <PlatformProvider>
         <Home />
-      </Provider>
-    </PlatformProvider>
+      </PlatformProvider>
+    </Provider>
   );
 }
 

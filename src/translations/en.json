@@ -1,6 +1,28 @@
 {
+  "errores": {
+    "error": "Error",
+    "ordenes": "Error al conseguir las órdenes"
+  },
   "general": {
+    "guardar": "Guardar",
     "nueva_promocion": "Nueva Promoción",
-    "regresar": "Regresar"
+    "regresar": "Regresar",
+    "total": "TOTAL: "
+  },
+  "productos": {
+    "cantidad": "Cantidad",
+    "producto": "Producto",
+    "precio": "Precio",
+    "selecciona_producto": "Selecciona un producto",
+    "sku": "SKU"
+  },
+  "ordenes": {
+    "compra_exitosa": "Compra Exitosa!",
+    "comprar": "Comprar",
+    "nombre": "Nombre",
+    "nueva_orden": "Nueva Orden",
+    "numero_orden": "No. Orden",
+    "orden_exitosa": "Orden creada exitosamente!",
+    "ordenes": "Ordenes"
   }
 }
